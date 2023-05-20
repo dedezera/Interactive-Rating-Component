@@ -103,7 +103,7 @@ body {
 }
 
 .numbers button:active {
-    background-color: #3b4455;
+    background-color: var(--orange);
 }
 
 .attribution {
@@ -159,4 +159,10 @@ p {
 
 .hidden {
     display: none;
+}
+
+@media (max-width: 768px) {
+    .container, .thank-you {
+        max-width: 100%;
+    }
 }
