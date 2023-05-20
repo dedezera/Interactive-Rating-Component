@@ -1,4 +1,5 @@
 # Frontend Mentor - Interactive rating component
+https://dedezera.github.io/Interactive-Rating-Component/
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
