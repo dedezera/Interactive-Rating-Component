@@ -38,6 +38,10 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.container p {
+    text-align: start;
+}
+
 .star {
     height: 50px;
     width: 50px;
@@ -102,8 +106,9 @@ body {
     color: var(--White);
 }
 
-.numbers button:active {
+.numbers button:focus {
     background-color: var(--orange);
+    color: var(--White);
 }
 
 .attribution {
@@ -162,7 +167,9 @@ p {
 }
 
 @media (max-width: 768px) {
-    .container, .thank-you {
+
+    .container,
+    .thank-you {
         max-width: 100%;
     }
 }
